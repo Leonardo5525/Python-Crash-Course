@@ -53,3 +53,15 @@ print(f'\n\t{name}')
 print(f'\n{name.lstrip()}')
 print(f'\n{name.rstrip()}')
 print(f'\n{name.strip()}')
+
+#Try Yourself
+#2-8. Number Eight: 
+print(5 + 3)
+print(5 - 3)
+print(5 * 3)
+print(5 / 3)
+
+#2-9. Favorite Number:
+number = 25
+print(f'My favorite number is {number}')
+
