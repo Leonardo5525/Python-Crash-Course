@@ -141,3 +141,38 @@ del name[1]
 del name[0]
 print(name)
 
+#Try it Yourself 3-7. Shrinking Guest List: NEW WAYS TO DO THE SAME
+name = ['goro', 'sato', 'miyuki']
+cancel_name ='goro'
+name.remove(cancel_name)
+name.append('shimizu')
+print(f'Please come to my dinner {name[0]}')
+print(f'Please come to my dinner {name[2]}')
+print(f"I understand you can´t make it {cancel_name}")
+print(f'Please come to my dinner {name[-1]}')
+print(f'I found a bigger table so i am gonna invete some more people')
+name.insert(-2, 'mayumura')
+name.insert(-2, 'gibson')
+name.append('gibson jr')
+print(f'Please come to my dinner {name[0]}')
+print(f'Please come to my dinner {name[2]}')
+print(f'Please come to my dinner {name[-2]}')
+print(f'Please come to my dinner {name[-3]}')
+print(f'Please come to my dinner {name[-4]}')
+print(f'Please come to my dinner {name[-1]}')
+print(f"I understand you can´t make it {cancel_name}")
+print('I am sorry my table will not be ready on time')
+one_name = name.pop(-1)
+two_name = name.pop(-1)
+three_name = name.pop(-1)
+four_name = name.pop(-1)
+print(f'I am sorry that i can note invite you to dinner {one_name}')
+print(f'I am sorry that i can note invite you to dinner {two_name}')
+print(f'I am sorry that i can note invite you to dinner {three_name}')
+print(f'I am sorry that i can note invite you to dinner {four_name}')
+print(f'My table still have your seat reserved {name[0]}')
+print(f'My table still have your seat reserved {name[1]}')
+del name[0]
+del name[0]
+print(name)
+
