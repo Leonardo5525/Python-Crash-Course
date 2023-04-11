@@ -248,6 +248,29 @@ you could make a list of mountains, rivers, countries, cities, languages, or any
 thing else you’d like. Write a program that creates a list containing these items
 and then uses each function introduced in this chapter at least once.'''
 
+#Looping Through an Entire List
 magicians = ['alice', 'david', 'carolina']
 for magician in magicians:
       print(f'\n{magician}')
+
+#Doing More Work Within a for Loop
+magicians = ['alice', 'david', 'carolina']
+magicians.sort()
+for magician in magicians:
+      print(magician.title() + ", that was a great trick!")
+      print("I can't wait to see your next trick, " + magician.title() + ".\n")
+print("Thank you, everyone. That was a great magic show!")
+
+#Try it Yourself - 4-1. Pizzas:
+pizzas = ['pepperoni', 'cheese', 'margarita']
+for pizza in pizzas:
+      print(pizza)
+      print(f'I love pizza so much {pizza}\n')
+print('I love pizza in way that is immeasurable')
+
+#Try it Yourself - 4-2. Animals: 
+'''Think of at least three different animals that have a common characteristic. Store the names of these animals in a list, and then use a for loop to print out the name of each animal.'''
+animals = ['dog', 'cat', 'monkey']
+for animal in animals:
+      print(f'A {animal} is such good pet.\n')
+print('All this animals are mammals')
