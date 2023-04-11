@@ -176,3 +176,78 @@ del name[0]
 del name[0]
 print(name)
 
+# Organizing a list using SORT()
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+cars.sort()
+print(cars)
+cars.sort(reverse= True)
+print(cars)
+
+# Organizing a list using SORTED()
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print("Here is the original list:")
+print(cars)
+print("\nHere is the sorted list:")
+print(sorted(cars))
+print("\nHere is the original list again:")
+print(cars)
+
+# Organizing a list reverse chronological order REVERSE()
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+cars.reverse()
+print(cars)
+
+#Fiding the lenght of a list
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(len(cars))
+
+
+
+#Try it Yourself - 3-8. Seeing the World: 
+locals = ['Japan', 'USA', 'Koreia', 'Canada', 'Australia']
+print(locals)
+print(sorted(locals))
+#print(sorted(locals, reverse=True))
+print(locals)
+locals.reverse()
+print(locals)
+locals.reverse()
+print(locals)
+locals.sort()
+print(cars)
+locals.sort(reverse= True)
+print(locals)
+
+# Try it Yourself - 3-9. Dinner Guests: 
+name = ['goro', 'sato', 'miyuki']
+cancel_name ='goro'
+name.remove(cancel_name)
+name.append('shimizu')
+print(f'Please come to my dinner {name[0]}'
+      )
+print(f'Please come to my dinner {name[2]}')
+print(f"I understand you can´t make it {cancel_name}")
+print(f'Please come to my dinner {name[-1]}')
+print(f'I found a bigger table so i am gonna invete some more people')
+name.insert(-2, 'mayumura')
+name.insert(-2, 'gibson')
+name.append('gibson jr')
+print(f'Please come to my dinner {name[0]}')
+print(f'Please come to my dinner {name[2]}')
+print(f"I understand you can´t make it {cancel_name}")
+print(f'Please come to my dinner {name[-2]}')
+print(f'Please come to my dinner {name[-3]}')
+print(f'Please come to my dinner {name[-4]}')
+print(f'Please come to my dinner {name[-1]}')
+print(len(name))
+
+# Try it Yourself - 3-10. Every Function: 
+'''Think of something you could store in a list. For example,
+you could make a list of mountains, rivers, countries, cities, languages, or any-
+thing else you’d like. Write a program that creates a list containing these items
+and then uses each function introduced in this chapter at least once.'''
+
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+      print(f'\n{magician}')
