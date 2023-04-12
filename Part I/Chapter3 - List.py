@@ -279,9 +279,15 @@ print('All this animals are mammals')
 for value in range(1,5):
       print(value)
 
-#Using range() to Make a List of Numbers2
+#Using range() to Make a List of Numbers21
 squares = []
 for value in range(1,11):
       square = value**2
       squares.append(square)
 print(squares)
+
+#Simple Statistics with a List of Numbers
+digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+print (min(digits))
+print (max(digits))
+print (sum(digits))
