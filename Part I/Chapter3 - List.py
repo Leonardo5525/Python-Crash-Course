@@ -274,3 +274,14 @@ animals = ['dog', 'cat', 'monkey']
 for animal in animals:
       print(f'A {animal} is such good pet.\n')
 print('All this animals are mammals')
+
+#Using the range() Function
+for value in range(1,5):
+      print(value)
+
+#Using range() to Make a List of Numbers2
+squares = []
+for value in range(1,11):
+      square = value**2
+      squares.append(square)
+print(squares)
