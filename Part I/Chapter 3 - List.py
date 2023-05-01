@@ -1,11 +1,3 @@
-#Accessing Elements in a List
-bicycles = ['trek', 'cannondale', 'redline', 'specialized']
-print(bicycles[0])
-
-#Returning last value on the list or -2 (before the last) -3 (befora -2) and continue
-bicycles = ['trek', 'cannondale', 'redline', 'specialized']
-print(bicycles[-1])
-
 #Try ir Yourself - 3-1. Names: 
 names = ['leo', 'vitoria', 'joao', 'lucas']
 print(names)
@@ -23,50 +15,6 @@ print(message)
 transportation = ['car', 'motocycle', 'bike', 'airplane']
 message = (f'I would like to own a Honda {transportation[0]}')
 print(message)
-
-#Modifying Elements in a List
-motorcycles = ['honda', 'yamaha', 'suzuki']
-motorcycles[0] = 'ducati'
-print(motorcycles)
-
-#Appending (last)
-motorcycles = ['honda', 'yamaha', 'suzuki']
-motorcycles.append('ducati')
-print(motorcycles)
-
-#Appending from a empty list
-motorcycles = []
-motorcycles.append('honda')
-motorcycles.append('yamaha')
-motorcycles.append('suzuki')
-print(motorcycles)
-
-#Inserting elements into a list (any)
-motorcycles = ['honda', 'yamaha', 'suzuki']
-motorcycles.insert(1, 'ducati')
-print(motorcycles)
-
-#Removing an item using the DEL statement (need to know index)
-motorcycles = ['honda', 'yamaha', 'suzuki']
-del motorcycles[0]
-print(motorcycles)
-
-#Removing an Item Using the pop() Method (last, in this case)
-motorcycles = ['honda', 'yamaha', 'suzuki']
-print(motorcycles)
-popped_motorcycle = motorcycles.pop()
-print(motorcycles)
-print(popped_motorcycle)
-
-#Removing Using pop() Method (ANY, in this case)
-motorcycles = ['honda', 'yamaha', 'suzuki']
-first_owned = motorcycles.pop(0)
-print('The first motorcycle I owned was a ' + first_owned.title() + '.')
-
-#Removing a item by value (any)
-motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
-motorcycles.remove('ducati')
-print(motorcycles)
 
 #Try it Yourself 3-4. Guest List: 
 name = ['goro', 'sato', 'miyuki']
@@ -175,34 +123,6 @@ print(f'My table still have your seat reserved {name[1]}')
 del name[0]
 del name[0]
 print(name)
-
-# Organizing a list using SORT()
-cars = ['bmw', 'audi', 'toyota', 'subaru']
-cars.sort()
-print(cars)
-cars.sort(reverse= True)
-print(cars)
-
-# Organizing a list using SORTED()
-cars = ['bmw', 'audi', 'toyota', 'subaru']
-print("Here is the original list:")
-print(cars)
-print("\nHere is the sorted list:")
-print(sorted(cars))
-print("\nHere is the original list again:")
-print(cars)
-
-# Organizing a list reverse chronological order REVERSE()
-cars = ['bmw', 'audi', 'toyota', 'subaru']
-print(cars)
-cars.reverse()
-print(cars)
-
-#Fiding the lenght of a list
-cars = ['bmw', 'audi', 'toyota', 'subaru']
-print(len(cars))
-
-
 
 #Try it Yourself - 3-8. Seeing the World: 
 locals = ['Japan', 'USA', 'Koreia', 'Canada', 'Australia']

@@ -1,4 +1,5 @@
-name = ['goro', 'sato', 'miyuki']
-print(f'Please come to my dinner {name}')
-print(f'Please come to my dinner {name}')
-print(f'Please come to my dinner {name}')
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+cars.reverse()
+print(cars)
+print(cars)
