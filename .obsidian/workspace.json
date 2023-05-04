@@ -18,16 +18,16 @@
                 "source": false
               }
             },
-            "group": "3046c71dd81df348"
+            "group": "8c94abbd43771d38"
           }
         ]
       },
       {
-        "id": "078a1e58d427963f",
+        "id": "07b3419db84faf9a",
         "type": "tabs",
         "children": [
           {
-            "id": "f753c5186a480292",
+            "id": "5dbbc8c71e82d589",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,7 +37,7 @@
                 "source": false
               }
             },
-            "group": "3046c71dd81df348"
+            "group": "8c94abbd43771d38"
           }
         ]
       }
@@ -177,7 +177,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fc36f0d7bd3be41e",
+  "active": "5dbbc8c71e82d589",
   "lastOpenFiles": [
     "2023-05-01.md",
     "Part I/Chapter 3.md",

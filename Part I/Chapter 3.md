@@ -46,7 +46,7 @@ print(motorcycles)
 
 ### Inserting elements into a list (any)
 You can add a item on the list in any place of the list you want.
-*note:* if you want to add any item in the end of the list you need to use de <mark> index   [-1] </mark> 
+*note:* if you want to add any item in the end of the list you need to use de <mark> index [-1] </mark> 
 ```py
 motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles.insert(1, 'ducati')
