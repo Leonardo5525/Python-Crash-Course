@@ -7,7 +7,7 @@ print(bicycles[0])
 ```
 
 
-### Returning last value on the list or -2 (before the last) -3 (befora -2) and continue
+### Returning last value on the list or -2 (before the last) -3 (before -2) and continue
 
 ```py
 bicycles = ['trek', 'cannondale', 'redline', 'specialized']
@@ -22,6 +22,10 @@ motorcycles[0] = 'ducati'
 print(motorcycles)
 # ['ducati','honda', 'yamaha', 'suzuki']
 ```
+
+
+<br/>
+<br/>
 
 ## Adding items to a list
 ### Appending (last)
@@ -53,6 +57,10 @@ motorcycles.insert(1, 'ducati')
 print(motorcycles)
 # ['honda', 'ducati', 'yamaha', 'suzuki']
 ```
+
+
+<br/>
+<br/>
 
 ## Removing items on the list
 
@@ -98,6 +106,8 @@ print(motorcycles)
 # ['honda', 'yamaha', 'suzuki']
 ```
 
+<br/>
+<br/>
 
 ## Organizing your list
 
