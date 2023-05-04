@@ -1,59 +1,43 @@
 {
   "main": {
-    "id": "2a968d1e3fe80ab4",
+    "id": "e0cb7b02c27062be",
     "type": "split",
     "children": [
       {
-        "id": "5841e9d1682210e6",
+        "id": "4592ac8e2be1b87f",
         "type": "tabs",
         "children": [
           {
-            "id": "118976f7d486726f",
+            "id": "efcd084dd7da9c90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part I/Chapter 2.md",
+                "file": "Part I/Chapter 4.md",
                 "mode": "source",
                 "source": false
               }
             },
-<<<<<<< HEAD
-            "group": "8c94abbd43771d38"
-=======
-            "group": "5c07288fefb4102a"
->>>>>>> 77ec669e3b0cca4c7bfb16ecf389680d7f7d9d73
+            "group": "354bb5a4edd1ff97"
           }
         ]
       },
       {
-<<<<<<< HEAD
-        "id": "07b3419db84faf9a",
+        "id": "85a665f250a9add2",
         "type": "tabs",
         "children": [
           {
-            "id": "5dbbc8c71e82d589",
-=======
-        "id": "80d71b3add184eca",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6d6febad8880edf9",
->>>>>>> 77ec669e3b0cca4c7bfb16ecf389680d7f7d9d73
+            "id": "561d3d65b13ff9ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part I/Chapter 2.md",
+                "file": "Part I/Chapter 4.md",
                 "mode": "preview",
                 "source": false
               }
             },
-<<<<<<< HEAD
-            "group": "8c94abbd43771d38"
-=======
-            "group": "5c07288fefb4102a"
->>>>>>> 77ec669e3b0cca4c7bfb16ecf389680d7f7d9d73
+            "group": "354bb5a4edd1ff97"
           }
         ]
       }
@@ -61,15 +45,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c707648585ac09a4",
+    "id": "2cd8ac9ff2bae313",
     "type": "split",
     "children": [
       {
-        "id": "e711514690b26132",
+        "id": "2fde6d8935aaf775",
         "type": "tabs",
         "children": [
           {
-            "id": "2e75af5f95de6fb0",
+            "id": "e8f3f575a61abd83",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -79,12 +63,12 @@
             }
           },
           {
-            "id": "10542143cf94c97f",
+            "id": "fc4f82e52db30592",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#This",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,43 +78,43 @@
             }
           },
           {
-            "id": "094023e6aaaffd28",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "43dcaa257dc5add1",
+            "id": "f7fd8243c732f95d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "1849b1443f9920c7",
+    "id": "ed225277e8245d20",
     "type": "split",
     "children": [
       {
-        "id": "40df4b20b7a6697f",
+        "id": "a22d518fab3d29df",
         "type": "tabs",
         "children": [
           {
-            "id": "afbfc5fdfcd46d32",
+            "id": "25e2dc7e211db006",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "180a0aa89e784af6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part I/Chapter 2.md",
+                "file": "Part I/Chapter 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,19 +126,19 @@
             }
           },
           {
-            "id": "3bbc311f19cb8296",
+            "id": "af8052ddf116a863",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Part I/Chapter 2.md",
+                "file": "Part I/Chapter 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "61a43ca0daa867ba",
+            "id": "cb48e36cafa76ef3",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -165,25 +149,16 @@
             }
           },
           {
-            "id": "036ff54753473a8a",
+            "id": "f636d1a8c0fc6c22",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Part I/Chapter 2.md"
+                "file": "Part I/Chapter 4.md"
               }
             }
-          },
-          {
-            "id": "44ba6b9b39a21475",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -200,18 +175,12 @@
       "command-palette:Open command palette": false
     }
   },
-<<<<<<< HEAD
-  "active": "5dbbc8c71e82d589",
-=======
-  "active": "10542143cf94c97f",
->>>>>>> 77ec669e3b0cca4c7bfb16ecf389680d7f7d9d73
+  "active": "efcd084dd7da9c90",
   "lastOpenFiles": [
-    "Part I/Chapter 5.md",
-    "Part I/Chapter 2.md",
-    "Part I/Chapter 4.md",
     "Part I/Chapter 3.md",
-    "Part I/Chapter 4",
-    "2023-05-01.md",
-    "Chapter 3.md"
+    "Part I/Chapter 4.md",
+    "Part I/Chapter 4 - Teste.py",
+    "Chapter 4 - Teste.py",
+    "Part I/Chapter 2.md"
   ]
 }

@@ -1,16 +1,3 @@
-#Looping Through an Entire List
-magicians = ['alice', 'david', 'carolina']
-for magician in magicians:
-      print(f'\n{magician}')
-
-#Doing More Work Within a for Loop
-magicians = ['alice', 'david', 'carolina']
-magicians.sort()
-for magician in magicians:
-      print(magician.title() + ", that was a great trick!")
-      print("I can't wait to see your next trick, " + magician.title() + ".\n")
-print("Thank you, everyone. That was a great magic show!")
-
 #Try it Yourself - 4-1. Pizzas:
 pizzas = ['pepperoni', 'cheese', 'margarita']
 for pizza in pizzas:
@@ -24,23 +11,6 @@ animals = ['dog', 'cat', 'monkey']
 for animal in animals:
       print(f'A {animal} is such good pet.\n')
 print('All this animals are mammals')
-
-#Using the range() Function
-for value in range(1,5):
-      print(value)
-
-#Using range() to Make a List of Numbers21
-squares = []
-for value in range(1,11):
-      square = value**2
-      squares.append(square)
-print(squares)
-
-#Simple Statistics with a List of Numbers
-digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-print (min(digits))
-print (max(digits))
-print (sum(digits))
 
 #Try it Yourself:
 '''4-3. Counting to Twenty: Use a for loop to print the numbers from 1 to 20,
@@ -94,28 +64,6 @@ print(squares)
 '''4-9. Cube Comprehension: Use a list comprehension to generate a list of the first 10 cubes.'''
 
 
-
-# Working with Part of a List
-# Slicig a list
-players = ['charles', 'martina', 'michael', 'florence', 'eli']
-print(players[0:3])
-
-#Looping Through a Slice
-players = ['charles', 'martina', 'michael', 'florence', 'eli']
-print("Here are the first three players on my team:")
-for player in players[:3]:
-    print(player.title())
-
-#Copying a List
-my_foods = ['pizza', 'falafel', 'carrot cake']
-friend_foods = my_foods[:]
-print("My favorite foods are:")
-print(my_foods)
-print("\nMy friend's favorite foods are:")
-print(friend_foods)
-
-
-
 #Try it Yourself:
 '''4-10. Slices: Using one of the programs you wrote in this chapter, add several lines to the end of the program that do the following:
   • Print the message, The first three items in the list are:. Then use a slice to print the first three items from that program’s list.
@@ -150,23 +98,11 @@ print(friends_pizzas)
 '''4-12. More Loops: All versions of foods.py in this section have avoided using for loops when printing to save space. Choose a version of foods.py, and write two for loops to print each list of foods.'''
 
 
+#Try It Yourself
+''' 4-13. Buffet: A buffet-style restaurant offers only five basic foods. Think of five simple foods, and store them in a tuple.
+      Use a for loop to print each food the restaurant offers.
 
-#Turples:
-dimensions = (200, 50)
-print(dimensions[0])
-print(dimensions[1])
-
-#Looping Through All Values in a Tuple:
-dimensions = (200, 50)
-for dimension in dimensions:
-    print(dimension)
-
-#Writing over a Tuple (in this case you practically create a new turple, losing the values on the first one):
-dimensions = (200, 50)
-print("Original dimensions:")
-for dimension in dimensions:
-    print(dimension)
-dimensions = (400, 100)
-print("\nModified dimensions:")
-for dimension in dimensions:
-    print(dimension)
+      Try to modify one of the items, and make sure that Python rejects the change.
+      
+      The restaurant changes its menu, replacing two of the items with different foods. Add a block of code that rewrites the tuple, and then use a for loop to print each of the items on the revised menu.
+'''
