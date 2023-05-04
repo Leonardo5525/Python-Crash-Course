@@ -1,32 +1,3 @@
-#Combining or Concatenating Strings
-first_name = "ada"
-last_name = "lovelace"
-full_name = first_name + " " + last_name
-message = "Hello, " + full_name.title() + "!"
-print(message)
-
-#Adding Whitespace to Strings with Tabs or Newlines
-print('Leonardo \nYuiti \tNakamura \n\t 25 anos')
-
-#Stripping Whitespace
-favorite_language = 'python '
-favorite_language.rstrip()
-print(favorite_language)
-favorite_language.lstrip()
-' python'
-print(favorite_language)
-favorite_language.strip()
-' python '
-print(favorite_language)
-
-#Avoiding Syntax Errors with Strings
-message = "\nOne of Python's strengths is its diverse community."
-print(message)
-#This line is going to fail
-'''message = '\nOne of Python's strengths is its diverse community.'
-print(message)
-'''
-
 #Try Yourself - 
 # 2-3. Personal Message:
 name =  'Leo'
