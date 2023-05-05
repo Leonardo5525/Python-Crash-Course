@@ -1,4 +1,4 @@
-dimensions = (400, 100)
-print("\nModified dimensions:")
-for dimension in dimensions:
-		print(dimension)
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(cars)
+cars.reverse()
+print(cars)

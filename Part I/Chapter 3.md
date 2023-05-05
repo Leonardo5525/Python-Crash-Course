@@ -3,7 +3,9 @@
 ```py
 bicycles = ['trek', 'cannondale', 'redline', 'specialized']
 print(bicycles[0])
-# trek
+
+----------------------
+trek
 ```
 
 
@@ -12,7 +14,9 @@ print(bicycles[0])
 ```py
 bicycles = ['trek', 'cannondale', 'redline', 'specialized']
 print(bicycles[-1])
-# specialized
+
+----------------------
+specialized
 ```
 
 ### Modifying Elements in a List
@@ -20,7 +24,9 @@ print(bicycles[-1])
 motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles[0] = 'ducati'
 print(motorcycles)
-# ['ducati','honda', 'yamaha', 'suzuki']
+
+----------------------
+['ducati','honda', 'yamaha', 'suzuki']
 ```
 
 
@@ -34,7 +40,9 @@ In this case the new item is going to be added in the end of the list.
 motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles.append('ducati')
 print(motorcycles)
-# ['honda', 'yamaha', 'suzuki','ducati']
+
+----------------------
+['honda', 'yamaha', 'suzuki','ducati']
 ```
 
 ### Appending from a empty list
@@ -45,7 +53,9 @@ motorcycles.append('honda')
 motorcycles.append('yamaha')
 motorcycles.append('suzuki')
 print(motorcycles)
-# ['honda', 'yamaha', 'suzuki','ducati']
+
+----------------------
+['honda', 'yamaha', 'suzuki','ducati']
 ```
 
 ### Inserting elements into a list (any)
@@ -55,7 +65,9 @@ You can add a item on the list in any place of the list you want.
 motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles.insert(1, 'ducati')
 print(motorcycles)
-# ['honda', 'ducati', 'yamaha', 'suzuki']
+
+----------------------
+['honda', 'ducati', 'yamaha', 'suzuki']
 ```
 
 
@@ -70,7 +82,9 @@ You can choose what item you want to 'DELETE' from the list, just need to know t
 motorcycles = ['honda', 'yamaha', 'suzuki']
 del motorcycles[0]
 print(motorcycles)
-# ['yamaha', 'suzuki']
+
+----------------------
+['yamaha', 'suzuki']
 ```
 
 
@@ -82,8 +96,10 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 popped_motorcycle = motorcycles.pop(1)
 print(motorcycles)
 print(popped_motorcycle)
-# ['honda', 'yamaha', 'suzuki']
-# yamaha
+
+----------------------
+['honda', 'yamaha', 'suzuki']
+yamaha
 ```
 
 
@@ -93,7 +109,9 @@ You can choose the exactly item you want to remove of the list by inputting the 
 motorcycles = ['honda', 'yamaha', 'suzuki']
 first_owned = motorcycles.pop(0)
 print('The first motorcycle I owned was a ' + first_owned.title() + '.')
-# The first motorcycle I owned was a Honda.
+
+----------------------
+The first motorcycle I owned was a Honda.
 ```
 
 
@@ -103,7 +121,9 @@ This is a special case, it's going to need just the name (value) of the string o
 motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
 motorcycles.remove('ducati')
 print(motorcycles)
-# ['honda', 'yamaha', 'suzuki']
+
+----------------------
+['honda', 'yamaha', 'suzuki']
 ```
 
 <br/>
@@ -118,10 +138,12 @@ But you can make the list in alphabetical <u> order  </u>  or in <u> reverse ord
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 cars.sort()
 print(cars)
-# ['audi', 'bmw', 'subaru', 'toyota']
 cars.sort(reverse= True)
 print(cars)
-# ['toyota', 'subaru', 'bmw', 'audi']
+
+----------------------
+['audi', 'bmw', 'subaru', 'toyota']
+['toyota', 'subaru', 'bmw', 'audi']
 ```
 
 
@@ -135,6 +157,16 @@ print("\nHere is the sorted list:")
 print(sorted(cars))
 print("\nHere is the original list again:")
 print(cars)
+
+---------------------
+Here is the original list:
+['bmw', 'audi', 'toyota', 'subaru']
+
+Here is the sorted list:
+['audi', 'bmw', 'subaru', 'toyota']
+
+Here is the original list again:
+['bmw', 'audi', 'toyota', 'subaru']
 ```
 
 
@@ -145,13 +177,19 @@ cars = ['bmw', 'audi', 'toyota', 'subaru']
 print(cars)
 cars.reverse()
 print(cars)
+
+--------------------
+['bmw', 'audi', 'toyota', 'subaru']
+['subaru', 'toyota', 'audi', 'bmw']
 ```
 
 
 ### Finding the length of a list
 
-```
+```py
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 print(len(cars))
-# 4
+
+-----------------
+4
 ```

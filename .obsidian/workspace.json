@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part I/Chapter 4.md",
+                "file": "Part I/Chapter 5.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part I/Chapter 4.md",
+                "file": "Part I/Chapter 5.md",
                 "mode": "preview",
                 "source": false
               }
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ed225277e8245d20",
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part I/Chapter 4.md",
+                "file": "Part I/Chapter 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Part I/Chapter 4.md",
+                "file": "Part I/Chapter 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Part I/Chapter 4.md"
+                "file": "Part I/Chapter 5.md"
               }
             }
           }
@@ -177,10 +176,12 @@
   },
   "active": "efcd084dd7da9c90",
   "lastOpenFiles": [
+    "Chapter 5 - Teste.py",
     "Part I/Chapter 3.md",
+    "Part I/Chapter 2.md",
+    "Part I/Chapter 5.md",
     "Part I/Chapter 4.md",
     "Part I/Chapter 4 - Teste.py",
-    "Chapter 4 - Teste.py",
-    "Part I/Chapter 2.md"
+    "Chapter 4 - Teste.py"
   ]
 }

@@ -7,8 +7,10 @@ last_name = "lovelace"
 full_name = first_name + " " + last_name
 message = "Hello, " + full_name.title() + "!"
 print(message)
-# Hello, Ada Lovelace!
-# Leonardo 
+
+----------------------
+Hello, Ada Lovelace!
+Leonardo 
 ```
 
 
@@ -17,9 +19,11 @@ The function ' \n ' is going to break the line, going to the next paragraph.
 The function ' \t ' is going to create a indetation, just like tab creating a little white space. .
 ```py
 print('Leonardo \nYuiti \tNakamura \n\t 25 anos')
-# Leonardo
-# Yuiti    Nakamura
-#          25 anos
+
+----------------------
+Leonardo
+Yuiti    Nakamura
+         25 anos
 ```
 
 
@@ -35,9 +39,11 @@ print(favorite_language)
 favorite_language.strip()
 ' python '
 print(favorite_language)
-# python 
-# python 
-# python 
+
+----------------------
+python 
+python 
+python 
 ```
 
 
@@ -46,7 +52,9 @@ If you use quotation mark in the string, you can use apostrophe without cause a 
 ```py
 message = "\nOne of Python's strengths is its diverse community."
 print(message)
-# One of Python's strengths is its diverse community.
+
+----------------------
+One of Python's strengths is its diverse community.
 ```
 
 
@@ -55,5 +63,7 @@ The reason to fail in this case it's because when you add a apostrophe in the mi
 ```py
 message = '\nOne of Python's strengths is its diverse community.'
 print(message)
-# SyntaxError: unterminated string literal (detected at line 1)
+
+----------------------
+SyntaxError: unterminated string literal (detected at line 1)
 ```
