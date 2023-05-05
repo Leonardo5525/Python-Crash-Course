@@ -30,7 +30,7 @@ car == 'bmw'
 True
 ```
 
-**Note:** if you put a function in any variable you will not change the value first added. (ex.: lower (), upper (), title() ... )
+<mark class="hltr-red">**Note:**</mark> if you put a function in any variable you will not change the value first added. (ex.: lower (), upper (), title() ... )
 <br>
 
 ### Checking for Inequality
