@@ -126,3 +126,26 @@ print("Your admission cost is $" + str(price) + ".")
 Your admission cost is $5.
 ```
 **Omitting the else Block:** Python does not require an else block at the end of an "If -  Elif chain". Sometimes an else block is useful, but others it's clearer to use an additional "Elif Statement" that catches the specific condition of interest. So the choice depends on the situation that is going to be applied.
+<br>
+
+### Testing Multiple Conditions
+This code only works in the "If Statement", because will consider all the possibilities without discarding the other ones, assuming all conditions are the first one.
+```py
+requested_toppings = ['mushrooms', 'extra cheese']
+if 'mushrooms' in requested_toppings:
+		print("Adding mushrooms.")
+if 'pepperoni' in requested_toppings:
+		print("Adding pepperoni.")
+if 'extra cheese' in requested_toppings:
+		print("Adding extra cheese.")
+		print("\nFinished making your pizza!")
+
+--------------------------
+Adding mushrooms.
+Adding extra cheese.
+Finished making your pizza!
+```
+This code would not work properly if we used an "If- Elif-Else" block, because the code would stop running after only one test passes. It's because in this cases when a one it's true automatically the other ones are false. 
+<br>
+## Using if Statements with Lists
+
