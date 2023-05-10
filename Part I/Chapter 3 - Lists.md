@@ -1,4 +1,4 @@
-# **List**
+# **Lists**
 ### Accessing Elements in a List
 ```py
 bicycles = ['trek', 'cannondale', 'redline', 'specialized']

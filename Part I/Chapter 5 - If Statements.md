@@ -149,3 +149,55 @@ This code would not work properly if we used an "If- Elif-Else" block, because t
 <br>
 ## Using if Statements with Lists
 
+```py
+requested_toppings = ['mushrooms', 'green peppers', 'extra cheese']
+	for requested_topping in requested_toppings:
+		 if requested_topping == 'green peppers':
+			print("Sorry, we are out of green peppers right now.")
+
+	else:
+			print("Adding " + requested_topping + ".")
+print("\nFinished making your pizza!")
+
+------------------
+Adding mushrooms.
+Sorry, we are out of green peppers right now.
+Adding extra cheese.
+Finished making your pizza! 
+
+```
+
+### Checking That a List Is Not Empty
+```py
+requested_toppings = []
+
+	if requested_toppings:
+		for requested_topping in requested_toppings:
+			print("Adding " + requested_topping + ".")
+		print("\nFinished making your pizza!")
+	else:
+		print("Are you sure you want a plain pizza?")
+
+---------------------
+Are you sure you want a plain pizza?
+
+```
+In this case if the list is not empty, the output will show each requested topping being added to the pizza.
+
+```py
+available_toppings = ['mushrooms', 'olives', 'green peppers', 'pepperoni', 'pineapple', 'extra cheese']
+requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
+
+for requested_topping in requested_toppings:
+	if requested_topping in available_toppings:
+		print("Adding " + requested_topping + ".")
+	else:
+		print("Sorry, we don't have " + requested_topping + ".")
+print("\nFinished making your pizza!")
+
+---------------------------
+Adding mushrooms.
+Sorry, we don't have french fries.
+Adding extra cheese.
+Finished making your pizza!
+```

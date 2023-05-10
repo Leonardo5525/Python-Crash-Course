@@ -128,7 +128,7 @@ Michael
 <br>
 
 ### Copying a List
-To copy a list, you can make a slice that includes the entire original list "my_list([:])" 
+To copy a list, you can make a slice that includes the entire original list "my_list( [ : ] )" 
 ```py
 my_foods = ['pizza', 'falafel', 'carrot cake']
 friend_foods = my_foods[:]
