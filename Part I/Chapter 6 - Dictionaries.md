@@ -1,4 +1,5 @@
-### A Simple Dictionary
+ .
+ ### A Simple Dictionary
 ```py
 alien_0 = {'color': 'green', 'points': 5}
 print(alien_0['color'])
@@ -123,3 +124,158 @@ Sarah's favorite language is C.
 
 
 ## Looping Through a Dictionary
+### Looping Through <mark style="background: #CACFD9A6;">All Key-Value Pairs</mark>
+This way is not gonna see just he value, but the string too.
+<mark style="background: #FFF3A3A6;">Method items() </mark>, which returns a list of key-value pairs. The for loop then stores each of these pairs in the two variables provided.
+**Note:** key-value pairs are not returned in the order in which they were stored, even when looping through a dictionary.
+```py
+user_0 = {
+'username': 'efermi',
+'first': 'enrico',
+'last': 'fermi',
+}
+for key, value in user_0.items():
+	print("\nKey: " + key)
+	print("Value: " + value)
+
+----------------------------
+Key: last
+Value: fermi
+Key: first
+Value: enrico
+Key: username
+Value: efermi
+```
+
+
+### Looping Through <mark style="background: #CACFD9A6;">All the Keys</mark> in a Dictionary
+The <mark style="background: #FFF3A3A6;">keys() method </mark>is useful when you don’t need to work with all of the values in a dictionary.
+```py
+favorite_languages = {
+'jen': 'python',
+'sarah': 'c',
+'edward': 'ruby',
+'phil': 'python',
+}
+for name in favorite_languages.keys():
+	print(name.title())
+
+---------------------------
+Jen
+Sarah
+Phil
+Edward
+```
+Looping through the keys is actually the default behavior when looping through a dictionary, so this code would have exactly the same output if you wrote . . .
+So if you wrote your code simple like this:
+```py
+for name in favorite_languages:
+```
+
+An example of dictionary  using a conditional 'if' for 'loop':
+```py
+favorite_languages = {
+'jen': 'python',
+'sarah': 'c',
+'edward': 'ruby',
+'phil': 'python',
+}
+friends = ['phil', 'sarah']
+for name in favorite_languages.keys():
+	print(name.title())
+	if name in friends:
+		print(" Hi " + name.title() + ", I see your favorite language is " + favorite_languages[name].title() + "!")
+
+------------------------------
+Edward
+Phil
+Hi Phil, I see your favorite language is Python!
+Sarah
+Hi Sarah, I see your favorite language is C!
+Jen
+```
+
+### Looping Through a Dictionary’s Keys <mark style="background: #CACFD9A6;">in Order</mark>
+Use the <mark style="background: #FFF3A3A6;">sorted() </mark>function to get a copy of the keys in order:
+```py
+favorite_languages = {
+'jen': 'python',
+'sarah': 'c',
+'edward': 'ruby',
+'phil': 'python',
+}
+for name in sorted(favorite_languages.keys()):
+	print(name.title() + ", thank you for taking the poll.")
+
+----------------------------
+Edward, thank you for taking the poll.
+Jen, thank you for taking the poll.
+Phil, thank you for taking the poll.
+Sarah, thank you for taking the poll.
+```
+
+
+### Looping Through <mark style="background: #CACFD9A6;">All Values</mark> in a Dictionary
+Interested in the values that a dictionary contains, you can use the <mark style="background: #FFF3A3A6;">values() method</mark> to return a list of values without any keys.
+
+```py
+favorite_languages = {
+'jen': 'python',
+'sarah': 'c',
+'edward': 'ruby',
+'phil': 'python',
+}
+print("The following languages have been mentioned:")
+for language in favorite_languages.values():
+	print(language.title())
+
+----------------------------
+The following languages have been mentioned:
+Python
+C
+Python
+Ruby
+```
+
+**Special condition:** When you wrap set() around a list that contains duplicate items, this method will pull out the unique and results in a non repetitive list of languages that have been mentioned.
+```py
+favorite_languages = {
+'jen': 'python',
+'sarah': 'c',
+'edward': 'ruby',
+'phil':}
+'python',
+print("The following languages have been mentioned:")
+for language in set(favorite_languages.values()):
+	print(language.title()) 
+
+---------------------------------
+The following languages have been mentioned:
+Python
+C
+Ruby
+```
+<br>
+## Nesting
+Store a set of dictionaries in a list or a list of items as a value in a dictionary.
+Can nest a set of dictionaries inside a list, a list of items inside a dictionary, or even a
+dictionary inside another dictionary.
+### A List of Dictionaries
+This is a simple example how this function works, in a much real example is used for so much more information.
+```py
+alien_0 = {'color': 'green', 'points': 5}
+alien_1 = {'color': 'yellow', 'points': 10}
+alien_2 = {'color': 'red', 'points': 15}
+u aliens = [alien_0, alien_1, alien_2]
+for alien in aliens:
+print(alien)
+
+-------------------------------------
+{'color': 'green', 'points': 5}
+{'color': 'yellow', 'points': 10}
+{'color': 'red', 'points': 15}
+```
+
+### A List in a Dictionary
+
+### A Dictionary in a Dictionary
