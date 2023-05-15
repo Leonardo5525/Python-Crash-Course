@@ -120,7 +120,19 @@ Sarah's favorite language is C.
 
 **Note:** is case you don't have the key it will cause a "KeyError". And if the key doesn't have a value the code won't work causing a "SyntaxError: invalid syntax", and if is empty will show nothing.
 **Note - Finding a key:** in case you don't know if you have a key or don't now the value.
-
+```py
+favorite_languages = {
+'jen': 'python',
+'sarah': 'c',
+'edward': 'ruby',
+'phil': 'python',
+}
+print(favorite_languages.get ('jenny', 'No such user.'))
+print(favorite_languages.get ('jen', 'No such user.'))
+----------------------
+No such user
+python
+``` 
 
 
 ## Looping Through a Dictionary
@@ -166,7 +178,7 @@ Sarah
 Phil
 Edward
 ```
-Looping through the keys is actually the default behavior when looping through a dictionary, so this code would have exactly the same output if you wrote . . .
+Looping through the keys is actually the default behavior when looping through a dictionary, so this code would have exactly the same output if you wrote without <mark style="background: #FFF3A3A6;">any method</mark>
 So if you wrote your code simple like this:
 ```py
 for name in favorite_languages:
@@ -261,7 +273,8 @@ Store a set of dictionaries in a list or a list of items as a value in a diction
 Can nest a set of dictionaries inside a list, a list of items inside a dictionary, or even a
 dictionary inside another dictionary.
 ### A List of Dictionaries
-This is a simple example how this function works, in a much real example is used for so much more information.
+This is a simple example how this function works, in real case is used for so much more information.
+This will input a dictionaries inside a list and will make a loop through this list seeing all the dictionaries.
 ```py
 alien_0 = {'color': 'green', 'points': 5}
 alien_1 = {'color': 'yellow', 'points': 10}
@@ -276,6 +289,89 @@ print(alien)
 {'color': 'red', 'points': 15}
 ```
 
+**Realistic example:**
+```py
+# Make an empty list for storing aliens.
+aliens = []
+
+# Make 30 green aliens.
+for alien_number in range(30):
+	new_alien = {'color': 'green', 'points': 5, 'speed': 'slow'}
+	aliens.append(new_alien)
+
+for alien in aliens[0:3]:
+	if alien['color'] == 'green':
+		alien['color'] = 'yellow'
+		alien['speed'] = 'medium'
+		alien['points'] = 10
+
+# Show the first 5 aliens:
+	for alien in aliens[:5]:
+		print(alien)
+		print("...")
+# Show how many aliens have been created.
+print("Total number of aliens: " + str(len(aliens)))
+
+
+---------------------------------------
+{'speed': 'slow', 'color': 'green', 'points': 5}
+{'speed': 'slow', 'color': 'green', 'points': 5}
+{'speed': 'slow', 'color': 'green', 'points': 5}
+{'speed': 'slow', 'color': 'green', 'points': 5}
+{'speed': 'slow', 'color': 'green', 'points': 5}
+...
+Total number of aliens: 30
+```
+
 ### A List in a Dictionary
+You can nest a list inside a dictionary any time you want more than
+one value to be associated with a single key in a dictionary.
+```py
+pizza = {
+'crust': 'thick',
+'toppings': ['mushrooms', 'extra cheese'],
+}
+
+#Summarize the order.
+print("You ordered a " + pizza['crust'] + "-crust pizza " + "with the following toppings:")
+for topping in pizza['topping']:
+	print("\t" + topping)
+
+==============================
+You ordered a thick-crust pizza with the following toppings:
+	mushrooms
+	extra cheese
+```
 
 ### A Dictionary in a Dictionary
+In this case we first define a dictionary called users with two keys: one each for the usernames 'aeinstein' and 'mcurie', so all the dictionaries need to be inside the main one.
+```py
+users = {
+'aeinstein': {
+'first': 'albert',
+'last': 'einstein',
+'location': 'princeton',
+},
+Dictionaries   113'mcurie': {
+'first': 'marie',
+'last': 'curie',
+'location': 'paris',
+},
+}
+for username, user_info in users.items():
+	print("\nUsername: " + username)
+	full_name = user_info['first'] + " " + user_info['last']
+	location = user_info['location']
+
+print("\tFull name: " + full_name.title())
+print("\tLocation: " + location.title())
+
+==============================================
+Username: aeinstein
+Full name: Albert Einstein
+Location: Princeton
+Username: mcurie
+Full name: Marie Curie
+Location: Paris
+```
+If each user’s dictionary had different keys, the code inside the for loop would be more complicated. So for cases with identical or similar cases, is recommended the use, but if you are going to make a bigger distinguish, it's better to use another way. 
