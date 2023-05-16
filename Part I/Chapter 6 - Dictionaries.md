@@ -268,10 +268,11 @@ C
 Ruby
 ```
 <br>
+
 ## Nesting
 Store a set of dictionaries in a list or a list of items as a value in a dictionary.
-Can nest a set of dictionaries inside a list, a list of items inside a dictionary, or even a
-dictionary inside another dictionary.
+Can nest a set of dictionaries inside a list, a list of items inside a dictionary, or even a dictionary inside another dictionary.
+
 ### A List of Dictionaries
 This is a simple example how this function works, in real case is used for so much more information.
 This will input a dictionaries inside a list and will make a loop through this list seeing all the dictionaries.
@@ -290,6 +291,7 @@ print(alien)
 ```
 
 **Realistic example:**
+
 ```py
 # Make an empty list for storing aliens.
 aliens = []
@@ -323,6 +325,7 @@ print("Total number of aliens: " + str(len(aliens)))
 Total number of aliens: 30
 ```
 
+
 ### A List in a Dictionary
 You can nest a list inside a dictionary any time you want more than
 one value to be associated with a single key in a dictionary.
@@ -352,7 +355,7 @@ users = {
 'last': 'einstein',
 'location': 'princeton',
 },
-Dictionaries   113'mcurie': {
+'mcurie': {
 'first': 'marie',
 'last': 'curie',
 'location': 'paris',
