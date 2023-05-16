@@ -118,18 +118,22 @@ favorite_places = [
     }    
 ]
 
-for f in favorite_languages():
-    a = {
-        'name': input('Qual o seu nome? '),
-        'place': input('Digite seu lugar favorito: ').split(',')
-    }
-
-    favorite_languages.
+print(favorite_languages)
 
 
 '''
 6-10. Favorite Numbers: Modify your program from Exercise 6-2 (page 102) so each person can have more than one  favorite number. Then print each person’s name along with their favorite numbers.
 '''
+dic =  {
+    'leo': [5,6,7],
+    'vi': [1,9,12],
+    'lucas': [30,27,14],
+}
+
+for name,d in dic.items():
+    print(f'\n{name.title()} favorite numbers are:')
+    for number in d:
+        print(f'\t {number} ')
 
 
 '''
