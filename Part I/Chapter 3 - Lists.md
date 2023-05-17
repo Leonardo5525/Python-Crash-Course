@@ -125,9 +125,8 @@ print(motorcycles)
 ----------------------
 ['honda', 'yamaha', 'suzuki']
 ```
+<br>
 
-<br/>
-<br/>
 
 ## Organizing your list
 
@@ -193,3 +192,14 @@ print(len(cars))
 -----------------
 4
 ```
+<br>
+
+## Summary
+In this chapter you learned what and how:
+* Lists are,
+* Work with the individual items in a list, 
+* Define a list, 
+* Add and remove elements. 
+* Sort lists permanently and temporarily for display purposes. 
+* Find the length of a list 
+* Avoid index errors when you’re working with lists.

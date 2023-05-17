@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2930e0a8ca1f676b",
+            "id": "12bd37080ce606c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Part I/Chapter 6 - Dictionaries.md",
+                "file": "Part I/Chapter 7 - Input and While Loops.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Part I/Chapter 6 - Dictionaries.md",
+                "file": "Part I/Chapter 7 - Input and While Loops.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Part I/Chapter 6 - Dictionaries.md",
+                "file": "Part I/Chapter 7 - Input and While Loops.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,11 +134,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Part I/Chapter 6 - Dictionaries.md"
+                "file": "Part I/Chapter 7 - Input and While Loops.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -155,16 +156,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2930e0a8ca1f676b",
+  "active": "cb48e36cafa76ef3",
   "lastOpenFiles": [
-    "Part I/Chapter 6 - Testes.py",
-    "Part I/Chapter 6 - Dictionaries.py",
-    "Part I/Chapter 6 - Testes",
+    "Part I/Chapters - Testes.py",
+    "Part I/Chapter 7 - Input and While Loops.py",
     "Part I/Chapter 5 - If Statements.md",
     "Part I/Chapter 4 - Working with Lists.md",
     "Part I/Chapter 3 - Lists.md",
-    "Part I/Chapter 2 - Variables and Datas.md",
     "Part I/Chapter 6 - Dictionaries.md",
+    "Part I/Chapter 7 - Input and While Loops.md",
+    "Part I/Chapter 7 - Input and While Loops",
+    "Part I/Chapter 6 - Testes.py",
+    "Part I/Chapter 6 - Dictionaries.py",
+    "Part I/Chapter 6 - Testes",
+    "Part I/Chapter 2 - Variables and Datas.md",
     "Part I/Chapter 5 - Teste.py",
     "Chapter 5 - Teste.py",
     "Part I/Chapter 4 - Teste.py",

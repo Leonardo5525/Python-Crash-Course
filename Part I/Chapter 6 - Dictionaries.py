@@ -139,7 +139,22 @@ for name,d in dic.items():
 '''
 6-11. Cities: Make a dictionary called cities. Use the names of three cities as keys in your dictionary. Create a dictionary of information about each city and include the country that the city is in, its approximate population, and one fact about that city. The keys for each city’s dictionary should be something like country, population, and fact. Print the name of each city and all of the infor mation you have stored about it.
 '''
+cities = {
+    'marilia': { 'estate': 'são paulo', 'population': 5000, 'fact': 'small'
 
+    },
+    'maringa': { 'estate': 'paraná', 'population': 7000, 'fact': 'medium'
+
+    },
+    'curitiba': {'estate': 'santa catarina', 'population': 9000, 'fact': 'big'
+
+    },
+}
+
+for cidade, citie in cities.items():
+    print(f"{cidade.title()} is located in {citie['estate']}, has a population of {citie['population']} peoples.")
+    print(f"Fact about {cidade}: {citie['fact']}\n")
+    
 
 
 '''

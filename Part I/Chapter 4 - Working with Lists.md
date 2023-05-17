@@ -106,7 +106,6 @@ print(players[:-2])
 ['michael', 'florence', 'eli']
 ```
 
-<br>
 
 ### Looping Through a Slice
 Specify the index of the first and last elements you want to work with, stopping one item
@@ -125,7 +124,6 @@ Martina
 Michael
 ```
 
-<br>
 
 ### Copying a List
 To copy a list, you can make a slice that includes the entire original list "my_list( [ : ] )" 
@@ -166,7 +164,6 @@ My friend's favorite foods are:
 ```
 If you use this example you will add the existing list to a variable, not coping her. This way they will not be separate, so when you add anything to either list, you will add to the another too.
 
-<br>
 <br>
 
 ## Tuples:
@@ -228,3 +225,14 @@ Modified dimensions:
 ```
 
 **Note:** When compared with lists, tuples are simple data structures. Set of values that should not be changed through out the life of a program.
+
+## Summary
+In this chapter you learned how to work:
+- Efficiently with the elements in a list,
+- Through a list using a for loop,
+- Uses indentation to structure a program, 
+- Avoid some common indentation errors, 
+- Make simple numerical lists and some operations performing with numerical lists,
+- Slice a list to work with a subset of items, 
+- Copy lists properly using a slice,
+- Tuples, which provide a degree of protection to a set of values that shouldn’t change, and how to style your increasingly complex code to make it easy to read.

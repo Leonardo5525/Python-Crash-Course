@@ -377,4 +377,14 @@ Username: mcurie
 Full name: Marie Curie
 Location: Paris
 ```
-If each user’s dictionary had different keys, the code inside the for loop would be more complicated. So for cases with identical or similar cases, is recommended the use, but if you are going to make a bigger distinguish, it's better to use another way. 
+If each user’s dictionary had different keys, the code inside the for loop would be more complicated. So for cases with identical or similar cases, is recommended the use, but if you are going to make a bigger distinguish, it's better to use another way.
+<br>
+
+## Summary
+In this chapter you learned how to:
+- Define a dictionary. 
+- Work with the information stored in a dictionary. 
+- Access and modify individual elements in a dictionary.
+- Loop through all of the information in a dictionary. 
+- Loop through a dictionary’s key-value pairs, its keys, and its values. 
+- Nest multiple dictionaries in a list, nest lists in a dictionary, and nest a dictionary inside a dictionary.
