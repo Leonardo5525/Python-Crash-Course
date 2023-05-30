@@ -1,7 +1,18 @@
-current_number = 0
-while current_number < 10:
-    current_number += 1
-    if current_number % 2 == 0:
-        continue
 
-    print(current_number)
+def show_magicians(magicians):
+    for magician in magicians:
+        print(magician)
+
+def great_magicians(magicians, make_great):
+    while magicians:
+        name = magicians.pop()
+        print(name)
+        make_great.append(name)
+
+
+
+magicians = ['natsu', 'gray', 'makarov']
+make_great = []
+great_magicians(magicians, make_great)
+print(magicians)
+print(make_great)

@@ -82,7 +82,7 @@ print (sum(digits))
 ## Working with Part of a List
 
 ### Slicing a list
-When you slice your list you won't lose the list you had at first.
+When you slice your list you won't lose the list you had at first. Even though it has a particular name indicating it's slicing/ cutting the list, this function will copy and slice where you want it's your choice.
 ```py
 players = ['charles', 'martina', 'michael', 'florence', 'eli']
 print(players[0:3])
