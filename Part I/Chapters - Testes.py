@@ -1,18 +1,9 @@
+def build_car(many, model, **info):
+    profile = {}
+    profile['Manifacture'] = many
+    profile['Model'] = model
+    for key, value in info.items():
+        profile[key] = value
+    return profile
 
-def show_magicians(magicians):
-    for magician in magicians:
-        print(magician)
-
-def great_magicians(magicians, make_great):
-    while magicians:
-        name = magicians.pop()
-        print(name)
-        make_great.append(name)
-
-
-
-magicians = ['natsu', 'gray', 'makarov']
-make_great = []
-great_magicians(magicians, make_great)
-print(magicians)
-print(make_great)
+print(build_car('fiat', 'GM', location='Marília',color='blue'))

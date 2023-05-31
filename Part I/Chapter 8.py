@@ -125,8 +125,6 @@ def great_magicians(magicians, make_great):
         print(name)
         make_great.append(name)
 
-
-
 magicians = ['natsu', 'gray', 'makarov']
 make_great = []
 great_magicians(magicians, make_great)
@@ -137,15 +135,48 @@ print(make_great)
 8-11. Unchanged Magicians: Start with your work from Exercise 8-10. Call the function make_great() with a copy of the list of magicians’ names. Because the original list will be unchanged, return the new list and store it in a separate list.
 Call show_magicians() with each list to show that you have one list of the original names and one list with the Great added to each magician’s name.
 '''
+def show_magicians(magicians):
+    for magician in magicians:
+        print(magician)
+
+def great_magicians(magicians, make_great):
+    while magicians:
+        name = magicians.pop()
+        print(name)
+        make_great.append(name)
+
+magicians = ['natsu', 'gray', 'makarov']
+make_great = []
+great_magicians(magicians[:], make_great)
+print(magicians)
+print(make_great)
+
 
 '''
 8-12. Sandwiches: Write a function that accepts a list of items a person wants on a sandwich. The function should have one parameter that collects as many items as the function call provides, and it should print a summary of the sandwich that is being ordered. Call the function three times, using a different number of arguments each time.
 '''
+def itens_sand(*toppings):
+    print ('Your sandwich will have this toppings: ')
+    print(f'{toppings} \n')
 
+itens_sand('atum', 'cheese', 'bacon')
+itens_sand('tamato', 'lettuce', 'onions')
+itens_sand('salmon', 'mayo', 'cream cheese')
 
 '''
 8-13. User Profile: Start with a copy of user_profile.py from page 153. Build a profile of yourself by calling build_profile(), using your first and last names and three other key-value pairs that describe you.
 '''
+def build_profile(f_name, last_name, **info):
+    profile = {}
+    profile['first_name'] = f_name
+    profile['last_name'] = last_name
+    for key, value in info.items():
+        profile[key] = value
+    return profile
+
+profile = build_profile('albert', 'einstein', location='princeton' field='physics')
+print(profile)
+
 
 '''
 8-14. Cars: Write a function that stores information about a car in a dictionary. The function should always receive a manufacturer and a model name. It should then accept an arbitrary number of keyword arguments. Call the function with the required information and two other name-value pairs, such as a color or an optional feature. Your function should work for a call like this one:
@@ -154,7 +185,16 @@ car = make_car('subaru', 'outback', color='blue', tow_package=True)
 
 Print the dictionary that’s returned to make sure all the information was stored correctly.
 '''
+def build_car(many, model, **info):
+    profile = {}
+    profile['Manifacture'] = many
+    profile['Model'] = model
+    for key, value in info.items():
+        profile[key] = value
+    return profile
 
+car_profile = build_car('fiat', 'GM', location='Marília',color='blue')
+print(car_profile)
 
 '''
 8-15. Printing Models: Put the functions for the example print_models.py in a separate file called printing_functions.py. Write an import statement at the top of print_models.py, and modify the file to use the imported functions.
