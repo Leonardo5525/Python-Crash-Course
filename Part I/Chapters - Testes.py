@@ -1,19 +1,28 @@
-class User:
-    def __init__(self, first_name, last_name, age, city):
-        self.first_name =  first_name
-        self.last_name = last_name
-        self.age = age
-        self.city = city
-    
-    def describe_user (self):
-        print(f'The user name is {self.first_name} {self.last_name}')
-        print(f'The user is {self.age} years old and lives in {self.city}')
-    
-    def greet_user(self):
-        print(f'Hello {self.first_name}{self.last_name}')
-    
-user1 = User('leonardo', 'nakamura', 26, 'marilia')
-user1.describe_user()
-user1.greet_user()
+class Restaurant:
+    '''A simple restaurante class'''
 
+    def __init__(self, restaurant_name, cusine_type):
+        self.restaurante_name =  restaurant_name
+        self.cusine_type = cusine_type
+        self.number_served = 0
 
+    def describe_restaurant(self):
+        '''Describes a restaurant'''
+        print(f'The restaurant is called {self.restaurante_name}')
+        print(f'The type is {self.cusine_type}')
+    
+    def open_restaurant(self):
+        '''Describes that restaurantis open'''
+        print(f'The restaurant {self.restaurante_name} is open')
+    
+    def set_restaurant(self, guests):
+        '''Describe how nmany people were served'''
+        self.number_served = guests
+    def set_increment(self, increment):
+        self.number_served += increment
+    
+restaurant = Restaurant(
+    input('O nome do restaurante '), 
+    input('O tipo de culinária ')
+    )
+print(f'Number served: {restaurant.number_served}')

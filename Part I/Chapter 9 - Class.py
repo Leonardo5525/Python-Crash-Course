@@ -75,11 +75,40 @@ class User:
 Try It Yourself 9-4. Number Served: Start with your program from Exercise 9-1 (page 166). Add an attribute called number_served with a default value of 0. Create an instance called restaurant from this class. Print the number of customers the restaurant has served, and then change this value and print it again. 
 Add a method called set_number_served() that lets you set the number of customers that have been served. Call this method with a new number and print the value again. Add a method called increment_number_served() that lets you increment the number of customers who’ve been served. Call this method with any number you like that could represent how many customers were served in, say, a day of business. 
 '''
+class Restaurant:
+    '''A simple restaurante class'''
 
+    def __init__(self, restaurant_name, cusine_type, number_served=0):
+        self.restaurante_name =  restaurant_name
+        self.cusine_type = cusine_type
+        self.number_served = number_served
+
+    def describe_restaurant(self):
+        '''Describes a restaurant'''
+        print(f'The restaurant is called {self.restaurante_name}')
+        print(f'The type is {self.cusine_type}')
+    
+    def open_restaurant(self):
+        '''Describes that restaurantis open'''
+        print(f'The restaurant {self.restaurante_name}is open')
+    
+    def restaurant(self):
+        '''Describe how nmany people were served'''
+        print(f'The number of people served today was {self.number_served}')
+    
+restaurant = Restaurant(
+    input('O nome do restaurante '), 
+    input('O tipo de culinária '),
+    int(input('The number of people served '))
+    )
+restaurant.describe_restaurant()
+restaurant.open_restaurant()
+restaurant.restaurant()
 
 '''
 9-5. Login Attempts: Add an attribute called login_attempts to your User class from Exercise 9-3 (page 166). Write a method called increment_ login_attempts() that increments the value of login_attempts by 1. Write another method called reset_login_attempts() that resets the value of login_ attempts to 0. Make an instance of the User class and call increment_login_attempts() several times. Print the value of login_attempts to make sure it was incremented properly, and then call reset_login_attempts(). Print login_attempts again to make sure it was reset to 0.
 '''
+
 
 '''
 Try It Yourself 9-6. Ice Cream Stand: An ice cream stand is a specific kind of restaurant. Write a class called IceCreamStand that inherits from the Restaurant class you wrote in Exercise 9-1 (page 166) or Exercise 9-4 (page 171). Either version of the class will work; just pick the one you like better. Add an attribute called flavors that stores a list of ice cream flavors. Write a method that displays these flavors. Create an instance of IceCreamStand, and call this method. 
