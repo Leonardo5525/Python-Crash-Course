@@ -23,7 +23,7 @@ You're tall enough to ride!
 ```
 
 ### The Modulo Operator
-A useful tool for working with numerical information is the <mark style="background: #FFF3A3A6;">modulo operator (%</mark>), which divides one number by another number and returns the remainder:
+A useful tool for working with numerical information is the <mark style="background: #FFF3A3A6;">modulo operator (%</mark>), which `divides` one number by another number and returns the remainder:
 ```py
 number = input("Enter a number, and I'll tell you if it's even or odd: ")
 number = int(number)
